@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bulma.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="./assets/chart.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+
+<header id="conteinerheader">
+ <div id="parte1">   
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item neonlights-logo" href="index.html">
+        <!-- LOGO -->
+        <span class="color-purple" >NEON</span>LIGHTS
+      </a>
+      <a role="button" class="navbar-burger"  aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+</div>
+    
+    <div id="inputprincipal">
+            <input id="inputbuscar" type="text" placeholder="buscar modelo">
+            <button id="button" type="submit" class="btn btn-danger align-baseline"><span class="material-symbols-outlined">
+                Buscar
+            </span></button>
+     </div>
+    </header>
+
+<body>
+   
+    <div class="containerchart">
+        
+    <canvas class="canvas" id="myChart" ></canvas>
+   
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+           
+          <p>
+            <strong>Luces Neón Pucón - </strong> by <a href="index.html">Cristian Alejandro</a>. The source code is
+            licensed
+          </p>
+        </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="app.js" type="module"></script>
+
+</body>
+</html>
